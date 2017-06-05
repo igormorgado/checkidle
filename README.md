@@ -1,1 +1,4 @@
 # checkidle
+
+shameful prototype code.
+
