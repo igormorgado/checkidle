@@ -29,6 +29,7 @@ runfile="status"
 # - Add conf file at /etc
 # - Add logged users monitoring (users idle time is possible?)
 # How to get this IDLE counter?:
+#  - IDLE on tty is taken from atime in /dev/pts/??
 #  USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
 #  igormorg pts/1    186.205.163.49   21:02    8.00s  0.08s  0.08s -bash
 # - Make thresholds be based on a unit as (packets/s loadavg/m, etc.
